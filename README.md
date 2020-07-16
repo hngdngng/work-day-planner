@@ -1,4 +1,4 @@
-# Coding Assessment
+# Workday Planner Browser Application
 
 ## Application
 Published on https://hngdngng.github.io/work-day-planner/
