@@ -21,7 +21,7 @@ function renderDisplay() {
     timeArray.forEach(hour => { //=> same as saying function (hour) {}, forEach loops through timeArray
         //for each hour in the loop, call on functions to update calendar task and hour block color 
         renderTask(hour);
-        changeBlockColor(hour, 11); //moment().hour pulls current hour in military time
+        changeBlockColor(hour, moment().hour()); //moment().hour pulls current hour in military time
     });
 }
 
